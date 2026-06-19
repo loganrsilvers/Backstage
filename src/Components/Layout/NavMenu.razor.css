@@ -191,7 +191,7 @@
 
     /* Set all icons and text to white to contrast against burgundy */
     .mud-nav-link, .mud-nav-group-header, .mud-nav-link .mud-nav-link-icon-default {
-        color: rgba(255, 255, 255, 0.85) !important;
+        color: rgba(255, 255, 255, 0.85);
     }
 
 
