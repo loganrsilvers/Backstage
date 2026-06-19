@@ -1,37 +1,49 @@
 ﻿@using Microsoft.AspNetCore.Identity
 @using PuppetFestAPP.Web.Data
 
+
 @inject SignInManager<ApplicationUser> SignInManager
 
-<MudNavMenu>
+    <style>
+        .mud-nav-link {
+            color: #333 !important;
+            padding-left: 0px; 
+
+        }
+        .mud-divider {
+            border-color: #969696 !important; 
+        }
+    </style>
+
     <MudNavLink Href="Account/Manage/Email" 
                 EndIcon="@Icons.Material.Filled.ArrowForward"
                 FullWidth="true"
-                class="my-2">
+                class="my-2"
+                Style="color: #333 !important;">
         Email
     </MudNavLink>
     <MudDivider></MudDivider>
     <MudNavLink Href="Account/Manage/PhoneNumber" 
                 EndIcon="@Icons.Material.Filled.ArrowForward"
                 FullWidth="true"
-                class="my-2">
+                class="my-2"
+                Style="color: #333 !important;">
         Phone Number
     </MudNavLink>
     <MudDivider></MudDivider>
     <MudNavLink Href="Account/Manage/ChangePassword" 
                 EndIcon="@Icons.Material.Filled.ArrowForward"
                 FullWidth="true"
-                class="my-2">
+                class="my-2"
+                Style="color: #333 !important;">
         Password
     </MudNavLink>
-
     @* @if (hasExternalLogins)
     {
         <MudNavLink Href="Account/Manage/ExternalLogins">External logins</MudNavLink>
     }
     <MudNavLink Href="Account/Manage/TwoFactorAuthentication">Two-factor authentication</MudNavLink>
     <MudNavLink Href="Account/Manage/PersonalData">Personal data</MudNavLink> *@
-</MudNavMenu>
 
 @code {
     private bool hasExternalLogins;
