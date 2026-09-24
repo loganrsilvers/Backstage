@@ -18,10 +18,21 @@ You can see the live branch [HERE](https://ccpuppetfest-backstage-gaaad2hyh6d5bu
 * Collaborative Git workflow with branch management and merge conflict resolution
 
 ## Programming Contributors and Responsibilities
+* Logan (she/her)
+  * Displayed the data
+  * Developed Sales Page (Version 1)
+  * Built Product, Location, and Catalog pages
+  * Oversaw branch management
+  * Resolved merge conflicts across branches
+  * Managed Azure migrations, nonprofit token subscriptions, and second Azure deployment
+  * Managed project handoff/migrations
+  * Developed logic for adding products to boxes and tracking deliveries by location
+  * Implimented the designs from Figma into Blazor through MudBlazor across all pages
 * Asha (he/him)
   * Designed database tables and data architecture
   * Configured Entity Framework Core
   * Recreated all styling elements from each given Figma component
+  * Managed project handoff
 * Luis (he/him)
   * Developed outgoing and incoming box workflows
   * Built CRUD functionality
@@ -33,15 +44,9 @@ You can see the live branch [HERE](https://ccpuppetfest-backstage-gaaad2hyh6d5bu
   * Developed CRUD operations
   * Integrated Entity Framework Core
   * Built product pages
-  * Managed Azure deployment
-  * Oversaw branch management
+  * Managed initial Azure deployment
+  * Also oversaw branch management
   * Debugged over 1k errors in multiple branches
-* Logan (she/her)
-  * Displayed the data
-  * Developed Sales Page (Version 1)
-  * Built Product, Location, and Catalog pages
-  * Developed logic for adding products to boxes and tracking deliveries by location
-  * Implimented the designs from Figma into Blazor through MudBlazor across all pages
 * Yunjong (he/him)
   * Managed view dependencies
   * Resolved merge conflicts across branches
