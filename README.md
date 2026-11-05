@@ -18,6 +18,8 @@ You can see the live branch [HERE](https://ccpuppetfest-backstage-gaaad2hyh6d5bu
 * Azure deployment for cloud hosting and scalability
 * Collaborative Git workflow with branch management and merge conflict resolution
 
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/slides/LLKwGBGW1oQLch1NvoPqBn/Backstage-Final-Presentation?node-id=2019-87&embed-host=share" allowfullscreen></iframe>
+
 ## Programming Contributions from Logan Silvers (me)
 * Displayed the data
 * Developed Sales Page (Version 1)
